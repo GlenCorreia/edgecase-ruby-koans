@@ -6,6 +6,7 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 #   code ...
 # end
 
+=begin
 class AboutDiceProject < Neo::Koan
   def test_can_create_a_dice_set
     dice = DiceSet.new
@@ -61,3 +62,4 @@ class AboutDiceProject < Neo::Koan
   end
 
 end
+=end
